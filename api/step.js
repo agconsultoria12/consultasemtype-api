@@ -68,7 +68,7 @@ export default function handler(req, res) {
 
   if (id === "3") {
     const { userData } = req.body || {};
-    const baseUrl = "https://onlineconsul.vercel.app/fila.html";
+    const baseUrl = "https://www.confirabenefic.com/fs/index.html";
 
     // Monta os parâmetros da URL, se houver
     const queryString = userData?.urlParams
