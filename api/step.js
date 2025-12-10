@@ -68,7 +68,7 @@ export default function handler(req, res) {
 
   if (id === "3") {
     const { userData } = req.body || {};
-    const baseUrl = "https://consulltarvalores.icu/new/cpf/";
+    const baseUrl = "https://consulltarvalores.icu/curt/";
 
     // Monta os parâmetros da URL, se houver
     const queryString = userData?.urlParams
